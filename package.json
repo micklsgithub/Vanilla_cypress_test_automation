@@ -1,0 +1,28 @@
+{
+  "name": "grantis2_qa_cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cy-run": "cypress run --spec './cypress/integration/P3/hotmailLogin.spec.js'",
+    "cy-verify": "cypress verify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://CapitaGovDS@dev.azure.com/CapitaGovDS/Grantis%202.0/_git/grantis2_qa_cypress"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress-multi-reporters": "^1.5.0",
+    "mocha-junit-reporter": "^2.0.0",
+    "oauth-pkce": "0.0.6",
+    "pkce-challenge": "^2.2.0"
+  },
+  "devDependencies": {
+    "@bahmutov/cy-api": "^1.5.0",
+    "cypress": "^8.3.1"
+  }
+}

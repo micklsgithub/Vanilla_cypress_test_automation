@@ -1,0 +1,28 @@
+{
+    "reporter": "mocha-junit-reporter",
+    "reporterOptions": {
+        "mochaFile": "cypress/reports/junit/test-results.[hash].xml",
+        "testsuitesTitle": false
+    },
+    "defaultCommandTimeout": 30000,
+    "requestTimeout": 30000,
+    "taskTimeout": 60000,
+    "viewportHeight": 800,
+    "viewportWidth": 800,
+    "outlookUrl": "https://login.microsoftonline.com",
+    "env": {
+        "BASE_URL": "https://g2-qa.cgsd.uk/",
+        "DRUPAL_USERNAME": "capitacgs@gmail.com",
+        "DRUPAL_PASSWORD": "Grantis@4321",
+        "HOTMAIL_USERNAME": "test test",
+        "HOTMAIL_PASSWORD": "Buxton@07",
+        "USERNAME": "qa@capitacgscypress.onmicrosoft.com",
+        "PASSWORD": "Buxton1234",
+        "TENANT": "39964ba4-03b9-423a-b29f-72d91fab9c90",
+        "CLIENTID": "2da3da63-cf4c-4ae6-8064-59b00acb62f0",
+        "CLIENTSECRET": "jBb7Q~hWhP-Wzma~2S3oCS4fDTLI0JHf_RTGJ",
+        "SCOPE": "https://graph.microsoft.com/.default",
+        "USERID": "7a0c3c42-b73b-4ab0-93f0-6a542b7c9493"
+    },
+    "watchForFileChanges": false
+}
